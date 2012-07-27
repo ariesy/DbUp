@@ -11,6 +11,7 @@ namespace SampleApplication
         {
             using (var database = new TemporarySqlDatabase("SampleApplication"))
             {
+                //test sample.
                 database.Create();
 
                 var upgrader = 
